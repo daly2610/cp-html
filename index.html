@@ -1,99 +1,104 @@
+<!--second checkpoint-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="wth=device-width, initial-scale=1.0">
+    <title>TWAIBI Mohamed Ali portfolio</title>
 </head>
 <body>
-    <!--this is a title-->
-
-    <h6>welcome</h6>
-    <h6>welcome</h6>
-    <h5>welcome</h5>
-    <h4>welcome</h4>
-    <h3>welcome</h3>
-    <h2>welcome</h2> 
-    <p>paragraphe</p>
-    <img src="./img/2268_1629961750_alfakhertwoapples.png" >
-    <!-- <a href="https://gomycode.tn/">Take me to GoMyCode's Website</a>  -->
-    <a href="#welcome"> Let's go up Top </a>
-    <h6>welcome</h6>
-    <h5>welcome</h5>
-    <h4>welcome</h4>
-    <h3>welcome</h3>
-    <h2>welcome</h2> 
-    <p>paragraphe</p><h6>welcome</h6>
-    <h5>welcome</h5>
-    <h4>welcome</h4>
-    <h3>welcome</h3>
-    <h2>welcome</h2> 
-    <p>paragraphe</p>
-    <p>daly</p>
-    <h1 id="welcome"> daly</h1>
-
-    <audio controls>
-        <source src="sounds/jetcar_start01-32544.mp3" type="audio/mpeg">
-            Please Check the audio Extension
-    </audio>
-    
-    <video width="320" height="240" autoplay>
-        <source src="videos/Neutral Beige Minimalist Company Organizational Chart.mp4" type="video/mp4" />
-        Please Check the video extension.
-    </video>
-    <iframe
-    width="420"
-    height="315"
-    src="https://www.youtube.com/embed/zcTFG_F0FRs"
-></iframe>
-<h1>Web Languages</h1>
-<ul type="round" >
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
-</ul>
-<ol type="I" >
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
-</ol>
-<dl>hous strak</dl>
-<dd>abc</dd>
+     <!--  Header Utilisee pour contenir des informations introductives ou des liens de navigation. Généralement placée en haut de la page ou d'une section. -->
+     <header>
+        <h1>My portfolio </h1>
+        <!--  nav pour contenir les principaux blocs de liens de navigation. -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
 
 
-<table border="1">
-    <tr>
-      <th>HTML</th>
-      <th>CSS</th>
-      <th>JS</th>
-    </tr>
-    <tr>
-      <td>Paragraphs</td>
-      <td>Selectors</td>
-      <td>DOM</td>
-    </tr>
-    <tr>
-      <td>Tables</td>
-      <td>Styles</td>
-      <td>Elements</td>
-    </tr>
-  </table>
-  <table border="1">
-    <tr>
-      <th>name</th>
-      <th>last name</th>
-      <th>job</th>
-    </tr>
-    <tr>
-      <td>azyz</td>
-      <td>darragi</td>
-      <td>web dev</td>
-    </tr>
-    <tr>
-      <td>daly</td>
-      <td>twaibi</td>
-      <td>it support</td>
-    </tr>
-  </table>
+        </nav>
+    </header>
+
+    <!-- Main Utilisée pour envelopper le contenu principal du document. Il ne doit y avoir qu'un seul  main pour document (page web) -->
+    <main>
+        <section id="home">
+            <h2>Welcome to my portfolio </h2>
+
+        </section>
+
+        <!-- Section utilisé pour definir une section du contenu  -->
+        <section id="about">
+            <div>
+                <h2> About </h2>
+                <img src="img/moi.jpg" width="300" height="300">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/90kC1YLNF3U?si=aUp4nDM0Oopsb0bS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>Hi there! I'm Mohamed Ali TWAIBI, a passionate web developer based in El Mourouj.
+                    Ever since I wrote my first line of code, I've been captivated by the power of technology to bring ideas to life and create meaningful experiences on the web.</p>
+                    </div>
+
+        </section>
+
+        <section id="work">
+           <h2>Work</h2>
+            <div>
+                <p>a dedicated IT technician currently working at Sofrecom, based in lake 1.
+                    I'm passionate about technology and enjoy the challenges and opportunities that come with working in the dynamic field of IT.</p>
+
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <div>
+                <h4>Certifications</h4>
+                <li>BTP en informatique de gestion</li>
+                <li>RHCSA</li>
+            </div>
+
+             <div>
+                <h4>Languages</h4>
+             <ul type="round">
+                <li>frensh</li>
+                <li>english</li>
+                <li>arab</li>
+             </ul>
+             </div>
+         </section>
+
+         <section id="contact">
+            <h2>contact</h2>
+             <div>
+                <div>
+                    <label for="phone">PhoneNum : </label>
+                    <input type="number" name="phone" id="phone">
+                </div>
+                <div>
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="comment">your comment : </label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+
+
+             </div>
+         </section>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>number : 58947609</li>
+                <li>e-mail : medali.twaibi@gmail.com</li>
+                <li>nice to meet you</li>
+            </ul>
+            
+          </div>
+        
+    </footer>
 </body>
 </html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--this all is test-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--this is a title-->
+
+    <h6>welcome</h6>
+    <h6>welcome</h6>
+    <h5>welcome</h5>
+    <h4>welcome</h4>
+    <h3>welcome</h3>
+    <h2>welcome</h2> 
+    <p>paragraphe</p>
+    <img src="./img/2268_1629961750_alfakhertwoapples.png" >
+    <!-- <a href="https://gomycode.tn/">Take me to GoMyCode's Website</a>  -->
+    <a href="#welcome"> Let's go up Top </a>
+    <h6>welcome</h6>
+    <h5>welcome</h5>
+    <h4>welcome</h4>
+    <h3>welcome</h3>
+    <h2>welcome</h2> 
+    <p>paragraphe</p><h6>welcome</h6>
+    <h5>welcome</h5>
+    <h4>welcome</h4>
+    <h3>welcome</h3>
+    <h2>welcome</h2> 
+    <p>paragraphe</p>
+    <p>daly</p>
+    <h1 id="welcome"> daly</h1>
+
+    <audio controls>
+        <source src="sounds/jetcar_start01-32544.mp3" type="audio/mpeg">
+            Please Check the audio Extension
+    </audio>
+    
+    <video width="320" height="240" autoplay>
+        <source src="videos/Neutral Beige Minimalist Company Organizational Chart.mp4" type="video/mp4" />
+        Please Check the video extension.
+    </video>
+    <iframe
+    width="420"
+    height="315"
+    src="https://www.youtube.com/embed/zcTFG_F0FRs"
+></iframe>
+<h1>Web Languages</h1>
+<ul type="round" >
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+</ul>
+<ol type="I" >
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+</ol>
+<dl>hous strak</dl>
+<dd>abc</dd>
+
+
+<table border="1">
+    <tr>
+      <th>HTML</th>
+      <th>CSS</th>
+      <th>JS</th>
+    </tr>
+    <tr>
+      <td>Paragraphs</td>
+      <td>Selectors</td>
+      <td>DOM</td>
+    </tr>
+    <tr>
+      <td>Tables</td>
+      <td>Styles</td>
+      <td>Elements</td>
+    </tr>
+  </table>
+  <table border="1">
+    <tr>
+      <th>name</th>
+      <th>last name</th>
+      <th>job</th>
+    </tr>
+    <tr>
+      <td>azyz</td>
+      <td>darragi</td>
+      <td>web dev</td>
+    </tr>
+    <tr>
+      <td>daly</td>
+      <td>twaibi</td>
+      <td>it support</td>
+    </tr>
+  </table>
+</body>
+</html> 
+
+
+<!--aziz code-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    id<meta charset="UTF-8">
+    <meta name="viewport" content="wth=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--  Header Utilisee pour contenir des informations introductives ou des liens de navigation. Généralement placée en haut de la page ou d'une section. -->
+    <header>
+        <h1>Mon site web </h1>
+        <!--  nav pour contenir les principaux blocs de liens de navigation. -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Utilisée pour envelopper le contenu principal du document. Il ne doit y avoir qu'un seul  main pour document (page web) -->
+    <main>
+        <section id="home">
+            <h2>Bienvenue sur notre site web </h2>
+            <p>Voici
+            <p>Voici le contenu de notre site.</p>
+        </section>
+
+        <!-- Section utilisé pour definir une section du contenu  -->
+        <section id="about">
+            <div>
+                <h2> About </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit ab qui excepturi ipsum
+                    doloribus sint perferendis ex quisquam rem laudantium laboriosam veritatis, laborum numquam id
+                    tempore, autem illo error?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit ab qui excepturi ipsum
+                    doloribus sint perferendis ex quisquam rem laudantium laboriosam veritatis, laborum numquam id
+                    tempore, autem illo error?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit ab qui excepturi ipsum
+                    doloribus sint perferendis ex quisquam rem laudantium laboriosam veritatis, laborum numquam id
+                    tempore, autem illo error?</p>
+            </div>
+        </section>
+
+        <article id="article">
+            <h3> Article de blog</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat hic enim nam atque excepturi recusandae
+                similique quas distinctio? Maiores, ipsum recusandae! Molestiae ipsum, explicabo saepe expedita
+                obcaecati voluptates repellendus atque!</p>
+        </article>
+
+        <div id="contact">
+            <form>
+                <div>
+                    <label for="name">name : </label>
+                    <!-- required = vous devez remplir le champ  ( input obligatoire) -->
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="password">password : </label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="phone">PhoneNum : </label>
+                    <input type="number" name="phone" id="phone">
+                </div>
+                <div>
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <!-- Button Radio pour les choix exclusifs (une seule option peut être sélectionnée). -->
+                <div>
+                    <label for="">Gender :</label>
+                    <label>
+                        <input type="radio" name="gender" value="mal" checked>
+                        Masculin
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        Feminin
+                    </label>
+                </div>
+                <!-- Case a cocher   des choix multiples (plusieurs options peuvent être sélectionnées).-->
+                <div>
+                    <label for="">Hobbies :</label>
+
+                    <label>
+                        <input type="checkbox" name="hobbies" value="sport">Sport
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="music">Musique
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobbies" value="nothing" checked>Nothing
+                    </label>
+                </div>
+                <div>
+                    <!-- une sélection unique dans une liste déroulant -->
+                    <label for="country"> Pays : </label>
+                    <select name="country" id="country">
+                        <option value="tunisia">Tunisia</option>
+                        <option value="libye">Libye</option>
+                        <option value="maroc">Maroc</option>
+                        <option value="#" selected>Choise your country</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="saubmit">Envoyer</button>
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+
+    </footer>
+
+</body>
+
+</html>
+

@@ -1,0 +1,76 @@
+/* get the required local files */
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot');
+    /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('roboto.woff') format('woff'),
+        /* Modern Browsers */
+        url('roboto.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('roboto.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+a {
+    display: inline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    border-style: dashed;
+    color: black;
+    background-color: bisque;
+}
+
+ul {
+    border-style: double;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+h4 {
+    border-style: initial;
+    color: black;
+    background-color: blanchedalmond;
+    background: -moz-element(24);
+}
+
+div {
+    border-style: double;
+    color: black;
+    background-color: azure;
+}
+
+image {
+    border-image: round;
+}
+
+.nav {
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }

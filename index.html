@@ -4,33 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" :>
     <title>TWAIBI Mohamed Ali portfolio</title>
+
 </head>
 <body>
      <!--  Header Utilisee pour contenir des informations introductives ou des liens de navigation. Généralement placée en haut de la page ou d'une section. -->
      <header>
         <h1>My portfolio </h1>
         <!--  nav pour contenir les principaux blocs de liens de navigation. -->
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
+        <navbar>
+           <div>
+            <a href="#home" class="nav">Home</a>
+            <a href="#about" class="nav">About</a>
+            <a href="#work" class="nav">Work</a>
+            <a href="#resume" class="nav">Resume</a>
+            <a href="#contact" class="nav">Contact</a>
+        </div> 
 
-
-        </nav>
+        </navbar>
     </header>
 
     <!-- Main Utilisée pour envelopper le contenu principal du document. Il ne doit y avoir qu'un seul  main pour document (page web) -->
     <main>
-        <section id="home">
-            <h2>Welcome to my portfolio </h2>
+        <section id="home" >
+            <h2 >Welcome to my portfolio </h2>
 
         </section>
 
         <!-- Section utilisé pour definir une section du contenu  -->
-        <section id="about">
+        <section id="about" >
             <div>
                 <h2> About </h2>
                 <img src="img/moi.jpg" width="300" height="300">
@@ -44,14 +47,14 @@
 
         <section id="work">
            <h2>Work</h2>
-            <div>
-                <p>a dedicated IT technician currently working at Sofrecom, based in lake 1.
+            <div >
+                <p class="box">a dedicated IT technician currently working at Sofrecom, based in lake 1.
                     I'm passionate about technology and enjoy the challenges and opportunities that come with working in the dynamic field of IT.</p>
 
             </div>
         </section>
 
-        <section id="resume">
+        <section id="resume" >
             <h2>Resume</h2>
             <div>
                 <h4>Certifications</h4>
@@ -69,7 +72,7 @@
              </div>
          </section>
 
-         <section id="contact">
+         <section id="contact" >
             <h2>contact</h2>
              <div>
                 <div>
@@ -96,9 +99,9 @@
                 <li>e-mail : medali.twaibi@gmail.com</li>
                 <li>nice to meet you</li>
             </ul>
-            
+
           </div>
-        
+
     </footer>
 </body>
 </html>
